@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+}
+
+h1 {
+    font-size: 4em;
+}
+
+h2 {
+    font-size: 2.7em;
+}
+
+h3 {
+    font-size: 2em;
+}
+
+p {
+    font-size: 1.25em;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    font-size: 1.25em;
+}
+
+
+button {
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 1px;
+    border: rgba($color: #DDA15E, $alpha: 10.0);
+    box-shadow: 2px 2px 10px rgba($color: #DDA15E, $alpha: 1.0);
+    color: white;
+    background-color: #82947C;
+}
+
+button:hover {
+    background-color: #DDA15E;
+}
+
+header .nav-link {
+    color: #82947C;
+}
+
+
+.banerdeentrada {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 150vh;
+    color: white;
+    background-image: url("/img/yerba.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+}
+
+.Agroecologica {
+    text-align: center;
+    padding: 10px 100px;
+    background-color: #DDA15E;
+    justify-content: center;
+}
+
+.yerbassaborizadas {
+    background-color: #EECE9F;
+}
+
+.conteinersaborizada {
+    text-align: center;
+    padding: 100px 0px;
+    color: white;
+}
+
+.yerbassaborizadas h2 {
+    margin-top: 0%;
+}
+
+.yerbassaborizadas p {
+    display: flex;
+    justify-content: center;
+}
+
+.cartas {
+    display: flex;
+}
+
+.carta {
+    background-image: url("/img/saborizada.jpg");
+    background-position: center;
+    background-size: cover;
+    padding: 70px;
+    margin: 20px;
+    border-radius: 15px;
+    margin-bottom: 0px;
+
+}
+
+.carta .carta p {
+    color: white;
+}
+
+h1{
+    color: red;
+}
